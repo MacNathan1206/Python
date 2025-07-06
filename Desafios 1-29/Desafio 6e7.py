@@ -1,0 +1,28 @@
+import math
+print()
+print('=' * 50)
+print('Desafio 6')
+print('=' * 50)
+print('Digite um número: ')
+n = int(input())
+dobro = n * 2
+triplo = n * 3
+raiz = math.sqrt(n)
+print()
+print('O dobro de {} é {}, o triplo é {} e a raiz quadrada é {:.2f}'.format(n, dobro, triplo, raiz))
+print()
+print('Fim do desafio 6\n')
+print('=' * 50)
+print('Desafio 7 : Notas de um aluno')
+print('=' * 50)
+print('Digite a primeira nota: ')
+n1 = float(input())
+print('Digite a segunda nota: ')
+n2 = float(input())
+media = (n1 + n2) / 2
+print()
+print('A média entre {} e {} é {:.2f}'.format(n1, n2, media))
+print()
+print('Fim do desafio 7')
+print()
+print('=' * 50)
