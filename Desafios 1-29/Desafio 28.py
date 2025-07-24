@@ -5,7 +5,7 @@ print('Desafio 28 - O computador que escolhe')
 print('+*+'*20)
 print()
 
-# Escolha de um número aleatório entre 0 e 5
+# Escolha de um número aleatório entre 0 e 5 pelo computador
 numero = random.randint(0, 5)
 
 # Usuário digita um número válido
